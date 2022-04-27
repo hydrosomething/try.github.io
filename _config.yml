@@ -1,3 +1,61 @@
-name: Hank Quinlan, Horrible Cop
+# Site settings
+title: hydrosomething
+email: hydrosomething@gmail.com
+url: https://hydrosomething.github.io
+description: "Did you say rainfall?"
+keywords: "hydroclimatology, data science, water resources engineering, disaster science"
+skills: "<b>MS Hydrology Student</b><br>Hydroclimatology - Disaster Science - Water Resources"
+meta_author: hydrosomething
+
+# Google webmaster tools
+# google_verify: GXoWk27mp--et593f2Bh-Q8xK-dlKyfJYeFNdTXu7vM
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+# bing_verify: 1A9A39558367FDEEE4900ED8C43E538A
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+#contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+# disqus_shortname: myshortname
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 80ed8e
+  primary-rgb: "128,237,142"
+  secondary: 0f0f0f
+  secondary-rgb: "15,15,15"
+  third: 0c4ad1
+  third-rgb: "12,74,209"
+  #secondary-dark: 000000
+
+# Footer settings
+footer:
+  copyright: hydrosomething
+  location: Contact
+  social: Professional Media
+  credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: "fa fa-twitter"
+    url: "http://twitter.com/hydrosomething"
+  - title: "fa fa-github"
+    url: "https://github.com/hydrosomething"
+
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Tumalog Falls
+  - line: hydrosomething [at] gmail [dot] com
+
+# Credits content
+credits: "Under Construction"
+
+# Build settings
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+permalink: pretty
